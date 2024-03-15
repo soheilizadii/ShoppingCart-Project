@@ -1,0 +1,22 @@
+.container{
+    width: 16%;
+  background: white;
+  margin-top: 15px;
+  border-radius: 7px;
+  border: dashed 1px #aaa;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 10px;
+}
+.title{
+  color:black;
+}
+.items{
+    display:flex;
+    color:#fe5d42;
+
+}
+.emptyBasket{
+    
+}

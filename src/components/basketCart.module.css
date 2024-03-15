@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    margin-top: 15px;
+    border: dashed gray 1px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+}
+.container img{
+    width:80px;
+    height: 80px;
+}
+.action span{
+    margin:0 5px;
+    font-size: 0.9rem;
+}
+.action button{
+    background-color: #fe5d42;
+  color: white;
+  border: none;
+  padding: 1px 5px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border:dashed 2px #e2e2e2;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+}
+.container img{
+   width:190px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+.container h3{
+    color:#fe5d42;
+    font-size: 1.1rem;
+}
+.container p{
+    color:#666;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin:10px 0 30px;
+}
+.action{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.action a{
+    font-size:1.5rem;
+    height:25px;
+    color:#fe5d42;
+    cursor: pointer;
+}
+
+.action button{
+    background-color: #fe5d42;
+    color:#fff;
+    border: none;
+    height:32px;
+    width:32px;
+    padding: 2px;
+    cursor: pointer;
+    font-size:1.3rem;
+    border-radius:8px;
+    line-height: normal;
+}
+.buttonsContainer span{
+  margin: 0 10px;
+}
